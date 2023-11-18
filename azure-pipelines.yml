@@ -17,7 +17,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'service-connection'
+    azureResourceManagerConnection: 'connect-service1'
     subscriptionId: '201dbdd1-c15e-4535-924c-03129e59084d'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'hack'
